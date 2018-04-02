@@ -26,8 +26,22 @@
     [self loadWebView];
     
     [self loadcookieView];
+    
+    TestMetaClass1(self, nil);
+
 }
 
+void TestMetaClass1(id self, SEL _cmd) {
+    NSLog(@"This objcet is %p", self);
+    NSLog(@"Class is %@, super class is %@", [self class], [self superclass]);
+    Class currentClass = [self class];
+    for (int i = 0; i < 4; i++) {
+        NSLog(@"Following the isa pointer %d times gives %p", i, currentClass);
+        //        currentClass = objc_getClass((__bridge void *)currentClass);
+    }
+    NSLog(@"NSObject's class is %p", [NSObject class]);
+    //    NSLog(@"NSObject's meta class is %p", objc_getClass((__bridge void *)[NSObject class]));
+}
 
 
 -(void)loadWebView{

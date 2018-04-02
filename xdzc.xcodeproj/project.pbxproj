@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9F031D94879D41BD3E0CD156 /* libPods-xdzc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E606E74A669E169E7B17BBC4 /* libPods-xdzc.a */; };
+		B20176E6207232FF007CA50B /* MyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = B20176E5207232FF007CA50B /* MyClass.m */; };
 		B279AA6C206CD77B00A0A2DB /* UILabelController.m in Sources */ = {isa = PBXBuildFile; fileRef = B279AA6B206CD77B00A0A2DB /* UILabelController.m */; };
 		B279AA6F206CD78B00A0A2DB /* UIButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = B279AA6E206CD78B00A0A2DB /* UIButtonController.m */; };
 		B279AA72206CD7CF00A0A2DB /* UIButtonEventController.m in Sources */ = {isa = PBXBuildFile; fileRef = B279AA71206CD7CF00A0A2DB /* UIButtonEventController.m */; };
@@ -59,6 +60,8 @@
 /* Begin PBXFileReference section */
 		153A92FE28FD1EA020AA1FD3 /* Pods-xdzc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xdzc.release.xcconfig"; path = "Pods/Target Support Files/Pods-xdzc/Pods-xdzc.release.xcconfig"; sourceTree = "<group>"; };
 		319EBD93DD73B93F7BC73845 /* Pods-xdzc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xdzc.debug.xcconfig"; path = "Pods/Target Support Files/Pods-xdzc/Pods-xdzc.debug.xcconfig"; sourceTree = "<group>"; };
+		B20176E4207232FF007CA50B /* MyClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyClass.h; sourceTree = "<group>"; };
+		B20176E5207232FF007CA50B /* MyClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyClass.m; sourceTree = "<group>"; };
 		B279AA6A206CD77B00A0A2DB /* UILabelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UILabelController.h; sourceTree = "<group>"; };
 		B279AA6B206CD77B00A0A2DB /* UILabelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UILabelController.m; sourceTree = "<group>"; };
 		B279AA6D206CD78B00A0A2DB /* UIButtonController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIButtonController.h; sourceTree = "<group>"; };
@@ -168,6 +171,15 @@
 				153A92FE28FD1EA020AA1FD3 /* Pods-xdzc.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		B20176E3207232E8007CA50B /* Runtime */ = {
+			isa = PBXGroup;
+			children = (
+				B20176E4207232FF007CA50B /* MyClass.h */,
+				B20176E5207232FF007CA50B /* MyClass.m */,
+			);
+			path = Runtime;
 			sourceTree = "<group>";
 		};
 		B279AA5A206CD04800A0A2DB /* 解析JSON 和  XML */ = {
@@ -364,6 +376,7 @@
 				B279AA61206CD04800A0A2DB /* 动画 */,
 				B4DB575620107D6700196F6E /* service */,
 				B279AA5D206CD04800A0A2DB /* 照片墙 */,
+				B20176E3207232E8007CA50B /* Runtime */,
 				B48E0D2220007E730085A2DD /* AppDelegate.h */,
 				B48E0D2320007E730085A2DD /* AppDelegate.m */,
 				B48E0D2520007E730085A2DD /* ViewController.h */,
@@ -574,6 +587,7 @@
 				B279AA9C206E34D700A0A2DB /* UIGestureController.m in Sources */,
 				B48E0D3A20007F240085A2DD /* ProjectDetailsView.m in Sources */,
 				B279AA99206E34BE00A0A2DB /* UITouchController.m in Sources */,
+				B20176E6207232FF007CA50B /* MyClass.m in Sources */,
 				B279AABB206E3A8000A0A2DB /* URLConnectsController.m in Sources */,
 				B4DB571B201040C900196F6E /* GTMBase64.m in Sources */,
 				B2900E35206A293800953737 /* LYCatViewController.m in Sources */,
