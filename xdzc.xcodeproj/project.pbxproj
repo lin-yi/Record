@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		9F031D94879D41BD3E0CD156 /* libPods-xdzc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E606E74A669E169E7B17BBC4 /* libPods-xdzc.a */; };
 		B20176E6207232FF007CA50B /* MyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = B20176E5207232FF007CA50B /* MyClass.m */; };
+		B25FFED520737AEC0010B4CD /* UIView+gesture.m in Sources */ = {isa = PBXBuildFile; fileRef = B25FFED420737AEC0010B4CD /* UIView+gesture.m */; };
 		B279AA6C206CD77B00A0A2DB /* UILabelController.m in Sources */ = {isa = PBXBuildFile; fileRef = B279AA6B206CD77B00A0A2DB /* UILabelController.m */; };
 		B279AA6F206CD78B00A0A2DB /* UIButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = B279AA6E206CD78B00A0A2DB /* UIButtonController.m */; };
 		B279AA72206CD7CF00A0A2DB /* UIButtonEventController.m in Sources */ = {isa = PBXBuildFile; fileRef = B279AA71206CD7CF00A0A2DB /* UIButtonEventController.m */; };
@@ -62,6 +63,8 @@
 		319EBD93DD73B93F7BC73845 /* Pods-xdzc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xdzc.debug.xcconfig"; path = "Pods/Target Support Files/Pods-xdzc/Pods-xdzc.debug.xcconfig"; sourceTree = "<group>"; };
 		B20176E4207232FF007CA50B /* MyClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyClass.h; sourceTree = "<group>"; };
 		B20176E5207232FF007CA50B /* MyClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyClass.m; sourceTree = "<group>"; };
+		B25FFED320737AEC0010B4CD /* UIView+gesture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+gesture.h"; sourceTree = "<group>"; };
+		B25FFED420737AEC0010B4CD /* UIView+gesture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+gesture.m"; sourceTree = "<group>"; };
 		B279AA6A206CD77B00A0A2DB /* UILabelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UILabelController.h; sourceTree = "<group>"; };
 		B279AA6B206CD77B00A0A2DB /* UILabelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UILabelController.m; sourceTree = "<group>"; };
 		B279AA6D206CD78B00A0A2DB /* UIButtonController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIButtonController.h; sourceTree = "<group>"; };
@@ -178,6 +181,8 @@
 			children = (
 				B20176E4207232FF007CA50B /* MyClass.h */,
 				B20176E5207232FF007CA50B /* MyClass.m */,
+				B25FFED320737AEC0010B4CD /* UIView+gesture.h */,
+				B25FFED420737AEC0010B4CD /* UIView+gesture.m */,
 			);
 			path = Runtime;
 			sourceTree = "<group>";
@@ -579,6 +584,7 @@
 				B4DB571120103F9100196F6E /* UserModel.m in Sources */,
 				B279AA85206CDB3300A0A2DB /* UISwitchController.m in Sources */,
 				B279AAAF206E35A300A0A2DB /* UINavgationController.m in Sources */,
+				B25FFED520737AEC0010B4CD /* UIView+gesture.m in Sources */,
 				B279AAA0206E34F200A0A2DB /* XIBViewController.m in Sources */,
 				B279AA87206CDB3300A0A2DB /* TimerViewController.m in Sources */,
 				B47B660B20032B4400E81BCB /* CardTableViewCell.m in Sources */,

@@ -16,5 +16,6 @@
 - (void)method1;
 - (void)method2;
 + (void)classMethod1;
+-(void)imp_submethod1;
 
 @end
