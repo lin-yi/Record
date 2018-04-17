@@ -8,7 +8,7 @@ target 'xdzc' do
   # Pods for xdzc
 pod "AYCategory"
 pod "AFNetworking"
-
+pod "CocoaAsyncSocket"
 	
 
 

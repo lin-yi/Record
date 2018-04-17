@@ -7,6 +7,7 @@
 //
 
 #import "MyClass.h"
+#import <objc/runtime.h>
 
 
 @interface MyClass () {
@@ -34,6 +35,27 @@
 
 -(void)imp_submethod1{
     NSLog(@"imp_submethod1");
+}
+
+-(void)dicenumerateKeysAndObjectsUsingBlock:(NSDictionary* )dic{
+    [dic enumerateKeysAndObjectsUsingBlock:^(id  _Nonnull key, id  _Nonnull obj, BOOL * _Nonnull stop) {
+        NSLog(@"key = %@, obj = %@",key, obj);
+    }];
+}
+
+- (void)setDataWithDic:(NSDictionary *)dic
+{
+    [dic enumerateKeysAndObjectsUsingBlock:^(NSString *key, id obj, BOOL *stop) {
+        NSString *propertyKey = key;
+        if (propertyKey)
+        {
+            objc_property_t property = class_getProperty([self class], [propertyKey UTF8String]);
+            // TODO: 针对特殊数据类型做处理
+            NSString *attributeString = [NSString stringWithCString:property_getAttributes(property) encoding:NSUTF8StringEncoding];
+            
+            [self setValue:obj forKey:propertyKey];
+        }
+    }];
 }
 
 @end

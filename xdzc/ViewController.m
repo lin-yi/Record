@@ -14,6 +14,7 @@
 #import <objc/runtime.h>
 #import "MyClass.h"
 #import "UIView+gesture.h"
+#import "SUTRuntimeMethod.h"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 @end
@@ -65,28 +66,72 @@
 //    [self.view setTapActionWithBlock:^{
 //        NSLog(@"这么牛逼💯");
 //    }];
+    
+
 
     
-    NSMutableDictionary *map = [[NSMutableDictionary alloc] initWithCapacity:10];
+//    NSMutableDictionary *map = [[NSMutableDictionary alloc] initWithCapacity:10];
+//
+//    [map setObject:@"zhangsan1" forKey:@"name1"];
+//    [map setObject:@"zhangsan2" forKey:@"name2"];
+//    [map setObject:@"begin" forKey:@"stetus1"];
+//    [map setObject:@"end" forKey:@"stetus2"];
+//    NSLog(@"map = %@",map);
+//
+//
+//    map[@"name1"]                = @"name";
+//    map[@"name2"]                = @"name";
+//
+//    map[@"stetus1"]              = @"status";
+//    map[@"stetus2"]              = @"status";
+//
+//    NSLog(@"map = %@",map);
+//
+//
+//    MyClass *myclass = [MyClass new];
+//    [myclass dicenumerateKeysAndObjectsUsingBlock:map];
     
-    [map setObject:@"zhangsan1" forKey:@"name1"];
-    [map setObject:@"zhangsan2" forKey:@"name2"];
-    [map setObject:@"begin" forKey:@"stetus1"];
-    [map setObject:@"end" forKey:@"stetus2"];
-    NSLog(@"map = %@",map);
+//    SEL sel1 = @selector(method555);
+//    NSLog(@"sel : %p", sel1);
+//
+//    SEL sel2 = @selector(lihailou);
+//    NSLog(@"sel1 : %p", sel2);
     
+//    [self lihailou];
     
-    map[@"name1"]                = @"name";
-    map[@"name2"]                = @"name";
+//        [self performSelector:@selector(method1)];
     
-    map[@"stetus1"]              = @"status";
-    map[@"stetus2"]              = @"status";
-    
-    NSLog(@"map = %@",map);
-    
-    // 2018年04月08日09:11:07
+    SUTRuntimeMethod *sutRun1 = [[SUTRuntimeMethod alloc] init];
+    [sutRun1 performSelector:@selector(test)];
     
 }
+
+-(void)lihailou{
+    NSLog(@"hahahah");
+    SEL sel2 = @selector(lihailou);
+    NSLog(@"sel1 : %p", sel2);
+}
+
+//+ (BOOL)resolveInstanceMethod:(SEL)sel {
+//    NSString *selectorString = NSStringFromSelector(sel);
+//    NSLog(@"selectorString = %@",selectorString);
+//    
+//    if ([selectorString isEqualToString:@"method1"]) {
+//        class_addMethod(self.class, @selector(method1), (IMP)functionForMethod1, "@:");
+//    }
+//    return [super resolveInstanceMethod:sel];
+//}
+
+
+void functionForMethod1(id self, SEL _cmd)
+{
+    NSLog(@"C 语言的 functionForMethod1，有何用？");
+}
+
+
+
+
+
 
 //- (void)setTapActionWithBlock:(void (^)(void))block
 //{

@@ -18,4 +18,6 @@
 + (void)classMethod1;
 -(void)imp_submethod1;
 
+-(void)dicenumerateKeysAndObjectsUsingBlock:(NSDictionary* )dic;
+
 @end

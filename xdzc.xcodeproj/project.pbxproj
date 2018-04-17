@@ -45,6 +45,9 @@
 		B25FFFEC2075F0010010B4CD /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = B25FFFE02075F0010010B4CD /* GTMBase64.m */; };
 		B25FFFED2075F0010010B4CD /* LYAutoreleasepool.m in Sources */ = {isa = PBXBuildFile; fileRef = B25FFFE42075F0010010B4CD /* LYAutoreleasepool.m */; };
 		B2900E35206A293800953737 /* LYCatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2900E34206A293800953737 /* LYCatViewController.m */; };
+		B2F3F472207B3AA000E4AFAF /* SUTRuntimeMethodHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F3F471207B3AA000E4AFAF /* SUTRuntimeMethodHelper.m */; };
+		B2F3F475207B3AB200E4AFAF /* SUTRuntimeMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F3F474207B3AB200E4AFAF /* SUTRuntimeMethod.m */; };
+		B2F3F478207C662600E4AFAF /* UIViewController+Tracking.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F3F477207C662600E4AFAF /* UIViewController+Tracking.m */; };
 		B47B660B20032B4400E81BCB /* CardTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B47B660920032B4400E81BCB /* CardTableViewCell.m */; };
 		B47B660C20032B4400E81BCB /* CardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B47B660A20032B4400E81BCB /* CardTableViewCell.xib */; };
 		B48E0D2420007E730085A2DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E0D2320007E730085A2DD /* AppDelegate.m */; };
@@ -136,6 +139,12 @@
 		B25FFFE42075F0010010B4CD /* LYAutoreleasepool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYAutoreleasepool.m; sourceTree = "<group>"; };
 		B2900E33206A293800953737 /* LYCatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYCatViewController.h; sourceTree = "<group>"; };
 		B2900E34206A293800953737 /* LYCatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYCatViewController.m; sourceTree = "<group>"; };
+		B2F3F470207B3AA000E4AFAF /* SUTRuntimeMethodHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SUTRuntimeMethodHelper.h; sourceTree = "<group>"; };
+		B2F3F471207B3AA000E4AFAF /* SUTRuntimeMethodHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SUTRuntimeMethodHelper.m; sourceTree = "<group>"; };
+		B2F3F473207B3AB200E4AFAF /* SUTRuntimeMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SUTRuntimeMethod.h; sourceTree = "<group>"; };
+		B2F3F474207B3AB200E4AFAF /* SUTRuntimeMethod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SUTRuntimeMethod.m; sourceTree = "<group>"; };
+		B2F3F476207C662600E4AFAF /* UIViewController+Tracking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Tracking.h"; path = "UI部分/UIViewController+Tracking.h"; sourceTree = "<group>"; };
+		B2F3F477207C662600E4AFAF /* UIViewController+Tracking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Tracking.m"; path = "UI部分/UIViewController+Tracking.m"; sourceTree = "<group>"; };
 		B47B660820032B4400E81BCB /* CardTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardTableViewCell.h; sourceTree = "<group>"; };
 		B47B660920032B4400E81BCB /* CardTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardTableViewCell.m; sourceTree = "<group>"; };
 		B47B660A20032B4400E81BCB /* CardTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardTableViewCell.xib; sourceTree = "<group>"; };
@@ -379,6 +388,10 @@
 				B25FFFD12075F0010010B4CD /* UIView+gesture.m */,
 				B25FFFD02075F0010010B4CD /* MyClass.h */,
 				B25FFFD22075F0010010B4CD /* MyClass.m */,
+				B2F3F473207B3AB200E4AFAF /* SUTRuntimeMethod.h */,
+				B2F3F474207B3AB200E4AFAF /* SUTRuntimeMethod.m */,
+				B2F3F470207B3AA000E4AFAF /* SUTRuntimeMethodHelper.h */,
+				B2F3F471207B3AA000E4AFAF /* SUTRuntimeMethodHelper.m */,
 			);
 			path = "20-Runtime";
 			sourceTree = "<group>";
@@ -446,6 +459,8 @@
 				B48E0D2320007E730085A2DD /* AppDelegate.m */,
 				B48E0D2520007E730085A2DD /* ViewController.h */,
 				B48E0D2620007E730085A2DD /* ViewController.m */,
+				B2F3F476207C662600E4AFAF /* UIViewController+Tracking.h */,
+				B2F3F477207C662600E4AFAF /* UIViewController+Tracking.m */,
 				B4DB5757201080A100196F6E /* ActivityWebView.h */,
 				B4DB5758201080A100196F6E /* ActivityWebView.m */,
 				B47B660820032B4400E81BCB /* CardTableViewCell.h */,
@@ -608,6 +623,7 @@
 				B25FFFE72075F0010010B4CD /* CopyProperty.m in Sources */,
 				B25FFFED2075F0010010B4CD /* LYAutoreleasepool.m in Sources */,
 				B25FFFC62075EFD40010B4CD /* TimerViewController.m in Sources */,
+				B2F3F475207B3AB200E4AFAF /* SUTRuntimeMethod.m in Sources */,
 				B25FFFCB2075EFD40010B4CD /* AutoLayoutViewController.m in Sources */,
 				B4DB5759201080A100196F6E /* ActivityWebView.m in Sources */,
 				B25FFFB72075EFD40010B4CD /* SqliteController.m in Sources */,
@@ -638,7 +654,9 @@
 				B25FFFBF2075EFD40010B4CD /* MyWKWebController.m in Sources */,
 				B2900E35206A293800953737 /* LYCatViewController.m in Sources */,
 				B25FFFC52075EFD40010B4CD /* UINavgationController.m in Sources */,
+				B2F3F472207B3AA000E4AFAF /* SUTRuntimeMethodHelper.m in Sources */,
 				B25FFFE52075F0010010B4CD /* UIView+gesture.m in Sources */,
+				B2F3F478207C662600E4AFAF /* UIViewController+Tracking.m in Sources */,
 				B25FFFCC2075EFD40010B4CD /* RespondersController.m in Sources */,
 				B25FFFEA2075F0010010B4CD /* Service.m in Sources */,
 				B25FFFE62075F0010010B4CD /* MyClass.m in Sources */,
@@ -780,11 +798,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XXCUWX5833;
+				DEVELOPMENT_TEAM = JMDM4A5BG3;
 				INFOPLIST_FILE = xdzc/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wchm.xdzc;
+				PRODUCT_BUNDLE_IDENTIFIER = com.linyi.www;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -796,11 +814,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XXCUWX5833;
+				DEVELOPMENT_TEAM = JMDM4A5BG3;
 				INFOPLIST_FILE = xdzc/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wchm.xdzc;
+				PRODUCT_BUNDLE_IDENTIFIER = com.linyi.www;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
