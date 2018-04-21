@@ -8,33 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		9F031D94879D41BD3E0CD156 /* libPods-xdzc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E606E74A669E169E7B17BBC4 /* libPods-xdzc.a */; };
-		B25FFFB32075EFD40010B4CD /* UILabelController.m in Sources */ = {isa = PBXBuildFile; fileRef = B25FFF682075EFD30010B4CD /* UILabelController.m */; };
-		B25FFFB42075EFD40010B4CD /* UIHierarchyController.m in Sources */ = {isa = PBXBuildFile; fileRef = B25FFF692075EFD30010B4CD /* UIHierarchyController.m */; };
-		B25FFFB52075EFD40010B4CD /* UIButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = B25FFF6E2075EFD30010B4CD /* UIButtonController.m */; };
-		B25FFFB62075EFD40010B4CD /* UIButtonEventController.m in Sources */ = {isa = PBXBuildFile; fileRef = B25FFF6F2075EFD30010B4CD /* UIButtonEventController.m */; };
-		B25FFFB72075EFD40010B4CD /* SqliteController.m in Sources */ = {isa = PBXBuildFile; fileRef = B25FFF712075EFD30010B4CD /* SqliteController.m */; };
-		B25FFFB82075EFD40010B4CD /* UISliderController.m in Sources */ = {isa = PBXBuildFile; fileRef = B25FFF752075EFD30010B4CD /* UISliderController.m */; };
-		B25FFFB92075EFD40010B4CD /* UITextFielController.m in Sources */ = {isa = PBXBuildFile; fileRef = B25FFF782075EFD30010B4CD /* UITextFielController.m */; };
-		B25FFFBA2075EFD40010B4CD /* UIAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B25FFF792075EFD30010B4CD /* UIAlertViewController.m */; };
-		B25FFFBB2075EFD40010B4CD /* JSONXMLController.m in Sources */ = {isa = PBXBuildFile; fileRef = B25FFF7C2075EFD30010B4CD /* JSONXMLController.m */; };
-		B25FFFBC2075EFD40010B4CD /* UITouchController.m in Sources */ = {isa = PBXBuildFile; fileRef = B25FFF802075EFD30010B4CD /* UITouchController.m */; };
-		B25FFFBD2075EFD40010B4CD /* UIScrollerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B25FFF812075EFD30010B4CD /* UIScrollerViewController.m */; };
-		B25FFFBE2075EFD40010B4CD /* URLConnectsController.m in Sources */ = {isa = PBXBuildFile; fileRef = B25FFF852075EFD30010B4CD /* URLConnectsController.m */; };
-		B25FFFBF2075EFD40010B4CD /* MyWKWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = B25FFF862075EFD30010B4CD /* MyWKWebController.m */; };
-		B25FFFC02075EFD40010B4CD /* SDWebImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = B25FFF882075EFD30010B4CD /* SDWebImageController.m */; };
-		B25FFFC12075EFD40010B4CD /* XIBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B25FFF8C2075EFD30010B4CD /* XIBViewController.m */; };
-		B25FFFC22075EFD40010B4CD /* XIBViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B25FFF8D2075EFD30010B4CD /* XIBViewController.xib */; };
-		B25FFFC32075EFD40010B4CD /* UIGestureController.m in Sources */ = {isa = PBXBuildFile; fileRef = B25FFF912075EFD30010B4CD /* UIGestureController.m */; };
-		B25FFFC42075EFD40010B4CD /* MYTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B25FFF942075EFD30010B4CD /* MYTableViewController.m */; };
-		B25FFFC52075EFD40010B4CD /* UINavgationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B25FFF962075EFD30010B4CD /* UINavgationController.m */; };
-		B25FFFC62075EFD40010B4CD /* TimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B25FFF9B2075EFD30010B4CD /* TimerViewController.m */; };
-		B25FFFC72075EFD40010B4CD /* UIWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = B25FFF9C2075EFD30010B4CD /* UIWindowController.m */; };
-		B25FFFC82075EFD40010B4CD /* UISwitchController.m in Sources */ = {isa = PBXBuildFile; fileRef = B25FFF9D2075EFD30010B4CD /* UISwitchController.m */; };
-		B25FFFC92075EFD40010B4CD /* AutoLayoutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B25FFFA32075EFD30010B4CD /* AutoLayoutViewController.xib */; };
-		B25FFFCA2075EFD40010B4CD /* ManualLayoutController.m in Sources */ = {isa = PBXBuildFile; fileRef = B25FFFA42075EFD30010B4CD /* ManualLayoutController.m */; };
-		B25FFFCB2075EFD40010B4CD /* AutoLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B25FFFA52075EFD30010B4CD /* AutoLayoutViewController.m */; };
-		B25FFFCC2075EFD40010B4CD /* RespondersController.m in Sources */ = {isa = PBXBuildFile; fileRef = B25FFFA62075EFD30010B4CD /* RespondersController.m */; };
-		B25FFFCD2075EFD40010B4CD /* AnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B25FFFA82075EFD30010B4CD /* AnimationController.m */; };
 		B25FFFE52075F0010010B4CD /* UIView+gesture.m in Sources */ = {isa = PBXBuildFile; fileRef = B25FFFD12075F0010010B4CD /* UIView+gesture.m */; };
 		B25FFFE62075F0010010B4CD /* MyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = B25FFFD22075F0010010B4CD /* MyClass.m */; };
 		B25FFFE72075F0010010B4CD /* CopyProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = B25FFFD42075F0010010B4CD /* CopyProperty.m */; };
@@ -45,6 +18,34 @@
 		B25FFFEC2075F0010010B4CD /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = B25FFFE02075F0010010B4CD /* GTMBase64.m */; };
 		B25FFFED2075F0010010B4CD /* LYAutoreleasepool.m in Sources */ = {isa = PBXBuildFile; fileRef = B25FFFE42075F0010010B4CD /* LYAutoreleasepool.m */; };
 		B2900E35206A293800953737 /* LYCatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2900E34206A293800953737 /* LYCatViewController.m */; };
+		B2DB9EAA2085CE5F00DFE21B /* UITouchController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DB9E6B2085CE5E00DFE21B /* UITouchController.m */; };
+		B2DB9EAB2085CE5F00DFE21B /* UIScrollerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DB9E6C2085CE5E00DFE21B /* UIScrollerViewController.m */; };
+		B2DB9EAC2085CE5F00DFE21B /* UINavgationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DB9E6E2085CE5E00DFE21B /* UINavgationController.m */; };
+		B2DB9EAD2085CE5F00DFE21B /* AnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DB9E712085CE5E00DFE21B /* AnimationController.m */; };
+		B2DB9EAE2085CE5F00DFE21B /* XIBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DB9E742085CE5E00DFE21B /* XIBViewController.m */; };
+		B2DB9EAF2085CE5F00DFE21B /* XIBViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2DB9E752085CE5E00DFE21B /* XIBViewController.xib */; };
+		B2DB9EB02085CE5F00DFE21B /* MYTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DB9E792085CE5E00DFE21B /* MYTableViewController.m */; };
+		B2DB9EB12085CE5F00DFE21B /* URLConnectsController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DB9E7D2085CE5E00DFE21B /* URLConnectsController.m */; };
+		B2DB9EB22085CE5F00DFE21B /* MyWKWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DB9E7E2085CE5E00DFE21B /* MyWKWebController.m */; };
+		B2DB9EB32085CE5F00DFE21B /* SqliteController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DB9E802085CE5E00DFE21B /* SqliteController.m */; };
+		B2DB9EB42085CE5F00DFE21B /* JSONXMLController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DB9E842085CE5E00DFE21B /* JSONXMLController.m */; };
+		B2DB9EB52085CE5F00DFE21B /* TimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DB9E882085CE5E00DFE21B /* TimerViewController.m */; };
+		B2DB9EB62085CE5F00DFE21B /* UIWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DB9E892085CE5E00DFE21B /* UIWindowController.m */; };
+		B2DB9EB72085CE5F00DFE21B /* UISwitchController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DB9E8A2085CE5E00DFE21B /* UISwitchController.m */; };
+		B2DB9EB82085CE5F00DFE21B /* UIGestureController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DB9E8E2085CE5E00DFE21B /* UIGestureController.m */; };
+		B2DB9EB92085CE5F00DFE21B /* UILabelController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DB9E902085CE5E00DFE21B /* UILabelController.m */; };
+		B2DB9EBA2085CE5F00DFE21B /* UIHierarchyController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DB9E912085CE5E00DFE21B /* UIHierarchyController.m */; };
+		B2DB9EBB2085CE5F00DFE21B /* UIButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DB9E962085CE5E00DFE21B /* UIButtonController.m */; };
+		B2DB9EBC2085CE5F00DFE21B /* UIButtonEventController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DB9E972085CE5E00DFE21B /* UIButtonEventController.m */; };
+		B2DB9EBD2085CE5F00DFE21B /* SDWebImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DB9E992085CE5F00DFE21B /* SDWebImageController.m */; };
+		B2DB9EBE2085CE5F00DFE21B /* AutoLayoutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2DB9E9F2085CE5F00DFE21B /* AutoLayoutViewController.xib */; };
+		B2DB9EBF2085CE5F00DFE21B /* ManualLayoutController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DB9EA02085CE5F00DFE21B /* ManualLayoutController.m */; };
+		B2DB9EC02085CE5F00DFE21B /* AutoLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DB9EA12085CE5F00DFE21B /* AutoLayoutViewController.m */; };
+		B2DB9EC12085CE5F00DFE21B /* RespondersController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DB9EA22085CE5F00DFE21B /* RespondersController.m */; };
+		B2DB9EC22085CE5F00DFE21B /* UISliderController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DB9EA52085CE5F00DFE21B /* UISliderController.m */; };
+		B2DB9EC32085CE5F00DFE21B /* UITextFielController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DB9EA82085CE5F00DFE21B /* UITextFielController.m */; };
+		B2DB9EC42085CE5F00DFE21B /* UIAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DB9EA92085CE5F00DFE21B /* UIAlertViewController.m */; };
+		B2DB9EC82085CEEE00DFE21B /* SocketSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DB9EC72085CEEE00DFE21B /* SocketSingleton.m */; };
 		B2F3F472207B3AA000E4AFAF /* SUTRuntimeMethodHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F3F471207B3AA000E4AFAF /* SUTRuntimeMethodHelper.m */; };
 		B2F3F475207B3AB200E4AFAF /* SUTRuntimeMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F3F474207B3AB200E4AFAF /* SUTRuntimeMethod.m */; };
 		B2F3F478207C662600E4AFAF /* UIViewController+Tracking.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F3F477207C662600E4AFAF /* UIViewController+Tracking.m */; };
@@ -66,58 +67,6 @@
 /* Begin PBXFileReference section */
 		153A92FE28FD1EA020AA1FD3 /* Pods-xdzc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xdzc.release.xcconfig"; path = "Pods/Target Support Files/Pods-xdzc/Pods-xdzc.release.xcconfig"; sourceTree = "<group>"; };
 		319EBD93DD73B93F7BC73845 /* Pods-xdzc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xdzc.debug.xcconfig"; path = "Pods/Target Support Files/Pods-xdzc/Pods-xdzc.debug.xcconfig"; sourceTree = "<group>"; };
-		B25FFF682075EFD30010B4CD /* UILabelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UILabelController.m; sourceTree = "<group>"; };
-		B25FFF692075EFD30010B4CD /* UIHierarchyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIHierarchyController.m; sourceTree = "<group>"; };
-		B25FFF6A2075EFD30010B4CD /* UIButtonEventController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIButtonEventController.h; sourceTree = "<group>"; };
-		B25FFF6B2075EFD30010B4CD /* UIButtonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIButtonController.h; sourceTree = "<group>"; };
-		B25FFF6C2075EFD30010B4CD /* UILabelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UILabelController.h; sourceTree = "<group>"; };
-		B25FFF6D2075EFD30010B4CD /* UIHierarchyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIHierarchyController.h; sourceTree = "<group>"; };
-		B25FFF6E2075EFD30010B4CD /* UIButtonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIButtonController.m; sourceTree = "<group>"; };
-		B25FFF6F2075EFD30010B4CD /* UIButtonEventController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIButtonEventController.m; sourceTree = "<group>"; };
-		B25FFF712075EFD30010B4CD /* SqliteController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SqliteController.m; sourceTree = "<group>"; };
-		B25FFF722075EFD30010B4CD /* SqliteController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SqliteController.h; sourceTree = "<group>"; };
-		B25FFF742075EFD30010B4CD /* UITextFielController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITextFielController.h; sourceTree = "<group>"; };
-		B25FFF752075EFD30010B4CD /* UISliderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UISliderController.m; sourceTree = "<group>"; };
-		B25FFF762075EFD30010B4CD /* UIAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAlertViewController.h; sourceTree = "<group>"; };
-		B25FFF772075EFD30010B4CD /* UISliderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UISliderController.h; sourceTree = "<group>"; };
-		B25FFF782075EFD30010B4CD /* UITextFielController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITextFielController.m; sourceTree = "<group>"; };
-		B25FFF792075EFD30010B4CD /* UIAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIAlertViewController.m; sourceTree = "<group>"; };
-		B25FFF7B2075EFD30010B4CD /* JSONXMLController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONXMLController.h; sourceTree = "<group>"; };
-		B25FFF7C2075EFD30010B4CD /* JSONXMLController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONXMLController.m; sourceTree = "<group>"; };
-		B25FFF7E2075EFD30010B4CD /* UIScrollerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIScrollerViewController.h; sourceTree = "<group>"; };
-		B25FFF7F2075EFD30010B4CD /* UITouchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITouchController.h; sourceTree = "<group>"; };
-		B25FFF802075EFD30010B4CD /* UITouchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITouchController.m; sourceTree = "<group>"; };
-		B25FFF812075EFD30010B4CD /* UIScrollerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIScrollerViewController.m; sourceTree = "<group>"; };
-		B25FFF832075EFD30010B4CD /* URLConnectsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLConnectsController.h; sourceTree = "<group>"; };
-		B25FFF842075EFD30010B4CD /* MyWKWebController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWKWebController.h; sourceTree = "<group>"; };
-		B25FFF852075EFD30010B4CD /* URLConnectsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLConnectsController.m; sourceTree = "<group>"; };
-		B25FFF862075EFD30010B4CD /* MyWKWebController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWKWebController.m; sourceTree = "<group>"; };
-		B25FFF882075EFD30010B4CD /* SDWebImageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageController.m; sourceTree = "<group>"; };
-		B25FFF892075EFD30010B4CD /* SDWebImageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageController.h; sourceTree = "<group>"; };
-		B25FFF8C2075EFD30010B4CD /* XIBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XIBViewController.m; sourceTree = "<group>"; };
-		B25FFF8D2075EFD30010B4CD /* XIBViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XIBViewController.xib; sourceTree = "<group>"; };
-		B25FFF8E2075EFD30010B4CD /* XIBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XIBViewController.h; sourceTree = "<group>"; };
-		B25FFF902075EFD30010B4CD /* UIGestureController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIGestureController.h; sourceTree = "<group>"; };
-		B25FFF912075EFD30010B4CD /* UIGestureController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIGestureController.m; sourceTree = "<group>"; };
-		B25FFF932075EFD30010B4CD /* MYTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYTableViewController.h; sourceTree = "<group>"; };
-		B25FFF942075EFD30010B4CD /* MYTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYTableViewController.m; sourceTree = "<group>"; };
-		B25FFF962075EFD30010B4CD /* UINavgationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UINavgationController.m; sourceTree = "<group>"; };
-		B25FFF972075EFD30010B4CD /* UINavgationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UINavgationController.h; sourceTree = "<group>"; };
-		B25FFF992075EFD30010B4CD /* UISwitchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UISwitchController.h; sourceTree = "<group>"; };
-		B25FFF9A2075EFD30010B4CD /* UIWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIWindowController.h; sourceTree = "<group>"; };
-		B25FFF9B2075EFD30010B4CD /* TimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerViewController.m; sourceTree = "<group>"; };
-		B25FFF9C2075EFD30010B4CD /* UIWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIWindowController.m; sourceTree = "<group>"; };
-		B25FFF9D2075EFD30010B4CD /* UISwitchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UISwitchController.m; sourceTree = "<group>"; };
-		B25FFF9E2075EFD30010B4CD /* TimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerViewController.h; sourceTree = "<group>"; };
-		B25FFFA02075EFD30010B4CD /* AutoLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLayoutViewController.h; sourceTree = "<group>"; };
-		B25FFFA12075EFD30010B4CD /* ManualLayoutController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManualLayoutController.h; sourceTree = "<group>"; };
-		B25FFFA22075EFD30010B4CD /* RespondersController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RespondersController.h; sourceTree = "<group>"; };
-		B25FFFA32075EFD30010B4CD /* AutoLayoutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AutoLayoutViewController.xib; sourceTree = "<group>"; };
-		B25FFFA42075EFD30010B4CD /* ManualLayoutController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManualLayoutController.m; sourceTree = "<group>"; };
-		B25FFFA52075EFD30010B4CD /* AutoLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutViewController.m; sourceTree = "<group>"; };
-		B25FFFA62075EFD30010B4CD /* RespondersController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RespondersController.m; sourceTree = "<group>"; };
-		B25FFFA82075EFD30010B4CD /* AnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationController.m; sourceTree = "<group>"; };
-		B25FFFA92075EFD30010B4CD /* AnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationController.h; sourceTree = "<group>"; };
 		B25FFFCF2075F0010010B4CD /* UIView+gesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+gesture.h"; sourceTree = "<group>"; };
 		B25FFFD02075F0010010B4CD /* MyClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyClass.h; sourceTree = "<group>"; };
 		B25FFFD12075F0010010B4CD /* UIView+gesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+gesture.m"; sourceTree = "<group>"; };
@@ -139,6 +88,60 @@
 		B25FFFE42075F0010010B4CD /* LYAutoreleasepool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYAutoreleasepool.m; sourceTree = "<group>"; };
 		B2900E33206A293800953737 /* LYCatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYCatViewController.h; sourceTree = "<group>"; };
 		B2900E34206A293800953737 /* LYCatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYCatViewController.m; sourceTree = "<group>"; };
+		B2DB9E692085CE5E00DFE21B /* UIScrollerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIScrollerViewController.h; sourceTree = "<group>"; };
+		B2DB9E6A2085CE5E00DFE21B /* UITouchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITouchController.h; sourceTree = "<group>"; };
+		B2DB9E6B2085CE5E00DFE21B /* UITouchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITouchController.m; sourceTree = "<group>"; };
+		B2DB9E6C2085CE5E00DFE21B /* UIScrollerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIScrollerViewController.m; sourceTree = "<group>"; };
+		B2DB9E6E2085CE5E00DFE21B /* UINavgationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UINavgationController.m; sourceTree = "<group>"; };
+		B2DB9E6F2085CE5E00DFE21B /* UINavgationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UINavgationController.h; sourceTree = "<group>"; };
+		B2DB9E712085CE5E00DFE21B /* AnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationController.m; sourceTree = "<group>"; };
+		B2DB9E722085CE5E00DFE21B /* AnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationController.h; sourceTree = "<group>"; };
+		B2DB9E742085CE5E00DFE21B /* XIBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XIBViewController.m; sourceTree = "<group>"; };
+		B2DB9E752085CE5E00DFE21B /* XIBViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XIBViewController.xib; sourceTree = "<group>"; };
+		B2DB9E762085CE5E00DFE21B /* XIBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XIBViewController.h; sourceTree = "<group>"; };
+		B2DB9E782085CE5E00DFE21B /* MYTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYTableViewController.h; sourceTree = "<group>"; };
+		B2DB9E792085CE5E00DFE21B /* MYTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYTableViewController.m; sourceTree = "<group>"; };
+		B2DB9E7B2085CE5E00DFE21B /* URLConnectsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLConnectsController.h; sourceTree = "<group>"; };
+		B2DB9E7C2085CE5E00DFE21B /* MyWKWebController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWKWebController.h; sourceTree = "<group>"; };
+		B2DB9E7D2085CE5E00DFE21B /* URLConnectsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLConnectsController.m; sourceTree = "<group>"; };
+		B2DB9E7E2085CE5E00DFE21B /* MyWKWebController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWKWebController.m; sourceTree = "<group>"; };
+		B2DB9E802085CE5E00DFE21B /* SqliteController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SqliteController.m; sourceTree = "<group>"; };
+		B2DB9E812085CE5E00DFE21B /* SqliteController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SqliteController.h; sourceTree = "<group>"; };
+		B2DB9E832085CE5E00DFE21B /* JSONXMLController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONXMLController.h; sourceTree = "<group>"; };
+		B2DB9E842085CE5E00DFE21B /* JSONXMLController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONXMLController.m; sourceTree = "<group>"; };
+		B2DB9E862085CE5E00DFE21B /* UISwitchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UISwitchController.h; sourceTree = "<group>"; };
+		B2DB9E872085CE5E00DFE21B /* UIWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIWindowController.h; sourceTree = "<group>"; };
+		B2DB9E882085CE5E00DFE21B /* TimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerViewController.m; sourceTree = "<group>"; };
+		B2DB9E892085CE5E00DFE21B /* UIWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIWindowController.m; sourceTree = "<group>"; };
+		B2DB9E8A2085CE5E00DFE21B /* UISwitchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UISwitchController.m; sourceTree = "<group>"; };
+		B2DB9E8B2085CE5E00DFE21B /* TimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerViewController.h; sourceTree = "<group>"; };
+		B2DB9E8D2085CE5E00DFE21B /* UIGestureController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIGestureController.h; sourceTree = "<group>"; };
+		B2DB9E8E2085CE5E00DFE21B /* UIGestureController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIGestureController.m; sourceTree = "<group>"; };
+		B2DB9E902085CE5E00DFE21B /* UILabelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UILabelController.m; sourceTree = "<group>"; };
+		B2DB9E912085CE5E00DFE21B /* UIHierarchyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIHierarchyController.m; sourceTree = "<group>"; };
+		B2DB9E922085CE5E00DFE21B /* UIButtonEventController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIButtonEventController.h; sourceTree = "<group>"; };
+		B2DB9E932085CE5E00DFE21B /* UIButtonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIButtonController.h; sourceTree = "<group>"; };
+		B2DB9E942085CE5E00DFE21B /* UILabelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UILabelController.h; sourceTree = "<group>"; };
+		B2DB9E952085CE5E00DFE21B /* UIHierarchyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIHierarchyController.h; sourceTree = "<group>"; };
+		B2DB9E962085CE5E00DFE21B /* UIButtonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIButtonController.m; sourceTree = "<group>"; };
+		B2DB9E972085CE5E00DFE21B /* UIButtonEventController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIButtonEventController.m; sourceTree = "<group>"; };
+		B2DB9E992085CE5F00DFE21B /* SDWebImageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageController.m; sourceTree = "<group>"; };
+		B2DB9E9A2085CE5F00DFE21B /* SDWebImageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageController.h; sourceTree = "<group>"; };
+		B2DB9E9C2085CE5F00DFE21B /* AutoLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLayoutViewController.h; sourceTree = "<group>"; };
+		B2DB9E9D2085CE5F00DFE21B /* ManualLayoutController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManualLayoutController.h; sourceTree = "<group>"; };
+		B2DB9E9E2085CE5F00DFE21B /* RespondersController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RespondersController.h; sourceTree = "<group>"; };
+		B2DB9E9F2085CE5F00DFE21B /* AutoLayoutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AutoLayoutViewController.xib; sourceTree = "<group>"; };
+		B2DB9EA02085CE5F00DFE21B /* ManualLayoutController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManualLayoutController.m; sourceTree = "<group>"; };
+		B2DB9EA12085CE5F00DFE21B /* AutoLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutViewController.m; sourceTree = "<group>"; };
+		B2DB9EA22085CE5F00DFE21B /* RespondersController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RespondersController.m; sourceTree = "<group>"; };
+		B2DB9EA42085CE5F00DFE21B /* UITextFielController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITextFielController.h; sourceTree = "<group>"; };
+		B2DB9EA52085CE5F00DFE21B /* UISliderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UISliderController.m; sourceTree = "<group>"; };
+		B2DB9EA62085CE5F00DFE21B /* UIAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAlertViewController.h; sourceTree = "<group>"; };
+		B2DB9EA72085CE5F00DFE21B /* UISliderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UISliderController.h; sourceTree = "<group>"; };
+		B2DB9EA82085CE5F00DFE21B /* UITextFielController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITextFielController.m; sourceTree = "<group>"; };
+		B2DB9EA92085CE5F00DFE21B /* UIAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIAlertViewController.m; sourceTree = "<group>"; };
+		B2DB9EC62085CEEE00DFE21B /* SocketSingleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocketSingleton.h; sourceTree = "<group>"; };
+		B2DB9EC72085CEEE00DFE21B /* SocketSingleton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocketSingleton.m; sourceTree = "<group>"; };
 		B2F3F470207B3AA000E4AFAF /* SUTRuntimeMethodHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SUTRuntimeMethodHelper.h; sourceTree = "<group>"; };
 		B2F3F471207B3AA000E4AFAF /* SUTRuntimeMethodHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SUTRuntimeMethodHelper.m; sourceTree = "<group>"; };
 		B2F3F473207B3AB200E4AFAF /* SUTRuntimeMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SUTRuntimeMethod.h; sourceTree = "<group>"; };
@@ -197,6 +200,7 @@
 				B25FFFD32075F0010010B4CD /* 1-属性 */,
 				B25FFFE22075F0010010B4CD /* 15-内存管理 */,
 				B25FFFCE2075F0000010B4CD /* 20-Runtime */,
+				B2DB9EC52085CED500DFE21B /* 21Socket */,
 				B25FFFD62075F0010010B4CD /* 30-service */,
 			);
 			path = "OC语言基础";
@@ -205,180 +209,22 @@
 		B25FFF662075EFD30010B4CD /* UI部分 */ = {
 			isa = PBXGroup;
 			children = (
-				B25FFF672075EFD30010B4CD /* 1-基础控件上 */,
-				B25FFF702075EFD30010B4CD /* 数据库 Sqlite */,
-				B25FFF732075EFD30010B4CD /* 3-基础控件下 */,
-				B25FFF7A2075EFD30010B4CD /* 解析JSON 和  XML */,
-				B25FFF7D2075EFD30010B4CD /* 6-视图布局上 */,
-				B25FFF822075EFD30010B4CD /* 网络编程 */,
-				B25FFF872075EFD30010B4CD /* 多媒体基础 */,
-				B25FFF8A2075EFD30010B4CD /* 照片墙 */,
-				B25FFF8B2075EFD30010B4CD /* 7-视图布局中 */,
-				B25FFF8F2075EFD30010B4CD /* 8-视图布局下-手势 */,
-				B25FFF922075EFD30010B4CD /* 表视图图UITableView */,
-				B25FFF952075EFD30010B4CD /* 导航和分栏控制器 */,
-				B25FFF982075EFD30010B4CD /* 2-基础控件中 */,
-				B25FFF9F2075EFD30010B4CD /* 布局子视图 */,
-				B25FFFA72075EFD30010B4CD /* 动画 */,
+				B2DB9E8F2085CE5E00DFE21B /* 1-基础控件上 */,
+				B2DB9E852085CE5E00DFE21B /* 2-基础控件中 */,
+				B2DB9EA32085CE5F00DFE21B /* 3-基础控件下 */,
+				B2DB9E682085CE5E00DFE21B /* 6-视图布局上 */,
+				B2DB9E732085CE5E00DFE21B /* 7-视图布局中 */,
+				B2DB9E8C2085CE5E00DFE21B /* 8-视图布局下-手势 */,
+				B2DB9E772085CE5E00DFE21B /* 表视图图UITableView */,
+				B2DB9E9B2085CE5F00DFE21B /* 布局子视图 */,
+				B2DB9E6D2085CE5E00DFE21B /* 导航和分栏控制器 */,
+				B2DB9E702085CE5E00DFE21B /* 动画 */,
+				B2DB9E982085CE5F00DFE21B /* 多媒体基础 */,
+				B2DB9E822085CE5E00DFE21B /* 解析JSON 和  XML */,
+				B2DB9E7F2085CE5E00DFE21B /* 数据库 Sqlite */,
+				B2DB9E7A2085CE5E00DFE21B /* 网络编程 */,
 			);
 			path = "UI部分";
-			sourceTree = "<group>";
-		};
-		B25FFF672075EFD30010B4CD /* 1-基础控件上 */ = {
-			isa = PBXGroup;
-			children = (
-				B25FFF682075EFD30010B4CD /* UILabelController.m */,
-				B25FFF692075EFD30010B4CD /* UIHierarchyController.m */,
-				B25FFF6A2075EFD30010B4CD /* UIButtonEventController.h */,
-				B25FFF6B2075EFD30010B4CD /* UIButtonController.h */,
-				B25FFF6C2075EFD30010B4CD /* UILabelController.h */,
-				B25FFF6D2075EFD30010B4CD /* UIHierarchyController.h */,
-				B25FFF6E2075EFD30010B4CD /* UIButtonController.m */,
-				B25FFF6F2075EFD30010B4CD /* UIButtonEventController.m */,
-			);
-			path = "1-基础控件上";
-			sourceTree = "<group>";
-		};
-		B25FFF702075EFD30010B4CD /* 数据库 Sqlite */ = {
-			isa = PBXGroup;
-			children = (
-				B25FFF712075EFD30010B4CD /* SqliteController.m */,
-				B25FFF722075EFD30010B4CD /* SqliteController.h */,
-			);
-			path = "数据库 Sqlite";
-			sourceTree = "<group>";
-		};
-		B25FFF732075EFD30010B4CD /* 3-基础控件下 */ = {
-			isa = PBXGroup;
-			children = (
-				B25FFF742075EFD30010B4CD /* UITextFielController.h */,
-				B25FFF752075EFD30010B4CD /* UISliderController.m */,
-				B25FFF762075EFD30010B4CD /* UIAlertViewController.h */,
-				B25FFF772075EFD30010B4CD /* UISliderController.h */,
-				B25FFF782075EFD30010B4CD /* UITextFielController.m */,
-				B25FFF792075EFD30010B4CD /* UIAlertViewController.m */,
-			);
-			path = "3-基础控件下";
-			sourceTree = "<group>";
-		};
-		B25FFF7A2075EFD30010B4CD /* 解析JSON 和  XML */ = {
-			isa = PBXGroup;
-			children = (
-				B25FFF7B2075EFD30010B4CD /* JSONXMLController.h */,
-				B25FFF7C2075EFD30010B4CD /* JSONXMLController.m */,
-			);
-			path = "解析JSON 和  XML";
-			sourceTree = "<group>";
-		};
-		B25FFF7D2075EFD30010B4CD /* 6-视图布局上 */ = {
-			isa = PBXGroup;
-			children = (
-				B25FFF7E2075EFD30010B4CD /* UIScrollerViewController.h */,
-				B25FFF7F2075EFD30010B4CD /* UITouchController.h */,
-				B25FFF802075EFD30010B4CD /* UITouchController.m */,
-				B25FFF812075EFD30010B4CD /* UIScrollerViewController.m */,
-			);
-			path = "6-视图布局上";
-			sourceTree = "<group>";
-		};
-		B25FFF822075EFD30010B4CD /* 网络编程 */ = {
-			isa = PBXGroup;
-			children = (
-				B25FFF832075EFD30010B4CD /* URLConnectsController.h */,
-				B25FFF842075EFD30010B4CD /* MyWKWebController.h */,
-				B25FFF852075EFD30010B4CD /* URLConnectsController.m */,
-				B25FFF862075EFD30010B4CD /* MyWKWebController.m */,
-			);
-			path = "网络编程";
-			sourceTree = "<group>";
-		};
-		B25FFF872075EFD30010B4CD /* 多媒体基础 */ = {
-			isa = PBXGroup;
-			children = (
-				B25FFF882075EFD30010B4CD /* SDWebImageController.m */,
-				B25FFF892075EFD30010B4CD /* SDWebImageController.h */,
-			);
-			path = "多媒体基础";
-			sourceTree = "<group>";
-		};
-		B25FFF8A2075EFD30010B4CD /* 照片墙 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "照片墙";
-			sourceTree = "<group>";
-		};
-		B25FFF8B2075EFD30010B4CD /* 7-视图布局中 */ = {
-			isa = PBXGroup;
-			children = (
-				B25FFF8C2075EFD30010B4CD /* XIBViewController.m */,
-				B25FFF8D2075EFD30010B4CD /* XIBViewController.xib */,
-				B25FFF8E2075EFD30010B4CD /* XIBViewController.h */,
-			);
-			path = "7-视图布局中";
-			sourceTree = "<group>";
-		};
-		B25FFF8F2075EFD30010B4CD /* 8-视图布局下-手势 */ = {
-			isa = PBXGroup;
-			children = (
-				B25FFF902075EFD30010B4CD /* UIGestureController.h */,
-				B25FFF912075EFD30010B4CD /* UIGestureController.m */,
-			);
-			path = "8-视图布局下-手势";
-			sourceTree = "<group>";
-		};
-		B25FFF922075EFD30010B4CD /* 表视图图UITableView */ = {
-			isa = PBXGroup;
-			children = (
-				B25FFF932075EFD30010B4CD /* MYTableViewController.h */,
-				B25FFF942075EFD30010B4CD /* MYTableViewController.m */,
-			);
-			path = "表视图图UITableView";
-			sourceTree = "<group>";
-		};
-		B25FFF952075EFD30010B4CD /* 导航和分栏控制器 */ = {
-			isa = PBXGroup;
-			children = (
-				B25FFF962075EFD30010B4CD /* UINavgationController.m */,
-				B25FFF972075EFD30010B4CD /* UINavgationController.h */,
-			);
-			path = "导航和分栏控制器";
-			sourceTree = "<group>";
-		};
-		B25FFF982075EFD30010B4CD /* 2-基础控件中 */ = {
-			isa = PBXGroup;
-			children = (
-				B25FFF992075EFD30010B4CD /* UISwitchController.h */,
-				B25FFF9A2075EFD30010B4CD /* UIWindowController.h */,
-				B25FFF9B2075EFD30010B4CD /* TimerViewController.m */,
-				B25FFF9C2075EFD30010B4CD /* UIWindowController.m */,
-				B25FFF9D2075EFD30010B4CD /* UISwitchController.m */,
-				B25FFF9E2075EFD30010B4CD /* TimerViewController.h */,
-			);
-			path = "2-基础控件中";
-			sourceTree = "<group>";
-		};
-		B25FFF9F2075EFD30010B4CD /* 布局子视图 */ = {
-			isa = PBXGroup;
-			children = (
-				B25FFFA02075EFD30010B4CD /* AutoLayoutViewController.h */,
-				B25FFFA12075EFD30010B4CD /* ManualLayoutController.h */,
-				B25FFFA22075EFD30010B4CD /* RespondersController.h */,
-				B25FFFA32075EFD30010B4CD /* AutoLayoutViewController.xib */,
-				B25FFFA42075EFD30010B4CD /* ManualLayoutController.m */,
-				B25FFFA52075EFD30010B4CD /* AutoLayoutViewController.m */,
-				B25FFFA62075EFD30010B4CD /* RespondersController.m */,
-			);
-			path = "布局子视图";
-			sourceTree = "<group>";
-		};
-		B25FFFA72075EFD30010B4CD /* 动画 */ = {
-			isa = PBXGroup;
-			children = (
-				B25FFFA82075EFD30010B4CD /* AnimationController.m */,
-				B25FFFA92075EFD30010B4CD /* AnimationController.h */,
-			);
-			path = "动画";
 			sourceTree = "<group>";
 		};
 		B25FFFCE2075F0000010B4CD /* 20-Runtime */ = {
@@ -431,6 +277,166 @@
 			);
 			path = "15-内存管理";
 			sourceTree = "<group>";
+		};
+		B2DB9E682085CE5E00DFE21B /* 6-视图布局上 */ = {
+			isa = PBXGroup;
+			children = (
+				B2DB9E692085CE5E00DFE21B /* UIScrollerViewController.h */,
+				B2DB9E6A2085CE5E00DFE21B /* UITouchController.h */,
+				B2DB9E6B2085CE5E00DFE21B /* UITouchController.m */,
+				B2DB9E6C2085CE5E00DFE21B /* UIScrollerViewController.m */,
+			);
+			path = "6-视图布局上";
+			sourceTree = "<group>";
+		};
+		B2DB9E6D2085CE5E00DFE21B /* 导航和分栏控制器 */ = {
+			isa = PBXGroup;
+			children = (
+				B2DB9E6E2085CE5E00DFE21B /* UINavgationController.m */,
+				B2DB9E6F2085CE5E00DFE21B /* UINavgationController.h */,
+			);
+			path = "导航和分栏控制器";
+			sourceTree = "<group>";
+		};
+		B2DB9E702085CE5E00DFE21B /* 动画 */ = {
+			isa = PBXGroup;
+			children = (
+				B2DB9E712085CE5E00DFE21B /* AnimationController.m */,
+				B2DB9E722085CE5E00DFE21B /* AnimationController.h */,
+			);
+			path = "动画";
+			sourceTree = "<group>";
+		};
+		B2DB9E732085CE5E00DFE21B /* 7-视图布局中 */ = {
+			isa = PBXGroup;
+			children = (
+				B2DB9E742085CE5E00DFE21B /* XIBViewController.m */,
+				B2DB9E752085CE5E00DFE21B /* XIBViewController.xib */,
+				B2DB9E762085CE5E00DFE21B /* XIBViewController.h */,
+			);
+			path = "7-视图布局中";
+			sourceTree = "<group>";
+		};
+		B2DB9E772085CE5E00DFE21B /* 表视图图UITableView */ = {
+			isa = PBXGroup;
+			children = (
+				B2DB9E782085CE5E00DFE21B /* MYTableViewController.h */,
+				B2DB9E792085CE5E00DFE21B /* MYTableViewController.m */,
+			);
+			path = "表视图图UITableView";
+			sourceTree = "<group>";
+		};
+		B2DB9E7A2085CE5E00DFE21B /* 网络编程 */ = {
+			isa = PBXGroup;
+			children = (
+				B2DB9E7B2085CE5E00DFE21B /* URLConnectsController.h */,
+				B2DB9E7C2085CE5E00DFE21B /* MyWKWebController.h */,
+				B2DB9E7D2085CE5E00DFE21B /* URLConnectsController.m */,
+				B2DB9E7E2085CE5E00DFE21B /* MyWKWebController.m */,
+			);
+			path = "网络编程";
+			sourceTree = "<group>";
+		};
+		B2DB9E7F2085CE5E00DFE21B /* 数据库 Sqlite */ = {
+			isa = PBXGroup;
+			children = (
+				B2DB9E802085CE5E00DFE21B /* SqliteController.m */,
+				B2DB9E812085CE5E00DFE21B /* SqliteController.h */,
+			);
+			path = "数据库 Sqlite";
+			sourceTree = "<group>";
+		};
+		B2DB9E822085CE5E00DFE21B /* 解析JSON 和  XML */ = {
+			isa = PBXGroup;
+			children = (
+				B2DB9E832085CE5E00DFE21B /* JSONXMLController.h */,
+				B2DB9E842085CE5E00DFE21B /* JSONXMLController.m */,
+			);
+			path = "解析JSON 和  XML";
+			sourceTree = "<group>";
+		};
+		B2DB9E852085CE5E00DFE21B /* 2-基础控件中 */ = {
+			isa = PBXGroup;
+			children = (
+				B2DB9E862085CE5E00DFE21B /* UISwitchController.h */,
+				B2DB9E872085CE5E00DFE21B /* UIWindowController.h */,
+				B2DB9E882085CE5E00DFE21B /* TimerViewController.m */,
+				B2DB9E892085CE5E00DFE21B /* UIWindowController.m */,
+				B2DB9E8A2085CE5E00DFE21B /* UISwitchController.m */,
+				B2DB9E8B2085CE5E00DFE21B /* TimerViewController.h */,
+			);
+			path = "2-基础控件中";
+			sourceTree = "<group>";
+		};
+		B2DB9E8C2085CE5E00DFE21B /* 8-视图布局下-手势 */ = {
+			isa = PBXGroup;
+			children = (
+				B2DB9E8D2085CE5E00DFE21B /* UIGestureController.h */,
+				B2DB9E8E2085CE5E00DFE21B /* UIGestureController.m */,
+			);
+			path = "8-视图布局下-手势";
+			sourceTree = "<group>";
+		};
+		B2DB9E8F2085CE5E00DFE21B /* 1-基础控件上 */ = {
+			isa = PBXGroup;
+			children = (
+				B2DB9E902085CE5E00DFE21B /* UILabelController.m */,
+				B2DB9E912085CE5E00DFE21B /* UIHierarchyController.m */,
+				B2DB9E922085CE5E00DFE21B /* UIButtonEventController.h */,
+				B2DB9E932085CE5E00DFE21B /* UIButtonController.h */,
+				B2DB9E942085CE5E00DFE21B /* UILabelController.h */,
+				B2DB9E952085CE5E00DFE21B /* UIHierarchyController.h */,
+				B2DB9E962085CE5E00DFE21B /* UIButtonController.m */,
+				B2DB9E972085CE5E00DFE21B /* UIButtonEventController.m */,
+			);
+			path = "1-基础控件上";
+			sourceTree = "<group>";
+		};
+		B2DB9E982085CE5F00DFE21B /* 多媒体基础 */ = {
+			isa = PBXGroup;
+			children = (
+				B2DB9E992085CE5F00DFE21B /* SDWebImageController.m */,
+				B2DB9E9A2085CE5F00DFE21B /* SDWebImageController.h */,
+			);
+			path = "多媒体基础";
+			sourceTree = "<group>";
+		};
+		B2DB9E9B2085CE5F00DFE21B /* 布局子视图 */ = {
+			isa = PBXGroup;
+			children = (
+				B2DB9E9C2085CE5F00DFE21B /* AutoLayoutViewController.h */,
+				B2DB9E9D2085CE5F00DFE21B /* ManualLayoutController.h */,
+				B2DB9E9E2085CE5F00DFE21B /* RespondersController.h */,
+				B2DB9E9F2085CE5F00DFE21B /* AutoLayoutViewController.xib */,
+				B2DB9EA02085CE5F00DFE21B /* ManualLayoutController.m */,
+				B2DB9EA12085CE5F00DFE21B /* AutoLayoutViewController.m */,
+				B2DB9EA22085CE5F00DFE21B /* RespondersController.m */,
+			);
+			path = "布局子视图";
+			sourceTree = "<group>";
+		};
+		B2DB9EA32085CE5F00DFE21B /* 3-基础控件下 */ = {
+			isa = PBXGroup;
+			children = (
+				B2DB9EA42085CE5F00DFE21B /* UITextFielController.h */,
+				B2DB9EA52085CE5F00DFE21B /* UISliderController.m */,
+				B2DB9EA62085CE5F00DFE21B /* UIAlertViewController.h */,
+				B2DB9EA72085CE5F00DFE21B /* UISliderController.h */,
+				B2DB9EA82085CE5F00DFE21B /* UITextFielController.m */,
+				B2DB9EA92085CE5F00DFE21B /* UIAlertViewController.m */,
+			);
+			path = "3-基础控件下";
+			sourceTree = "<group>";
+		};
+		B2DB9EC52085CED500DFE21B /* 21Socket */ = {
+			isa = PBXGroup;
+			children = (
+				B2DB9EC62085CEEE00DFE21B /* SocketSingleton.h */,
+				B2DB9EC72085CEEE00DFE21B /* SocketSingleton.m */,
+			);
+			name = 21Socket;
+			path = "xdzc/OC语言基础/21Socket";
+			sourceTree = SOURCE_ROOT;
 		};
 		B48E0D1620007E730085A2DD = {
 			isa = PBXGroup;
@@ -553,9 +559,9 @@
 			files = (
 				B48E0D2F20007E730085A2DD /* LaunchScreen.storyboard in Resources */,
 				B48E0D2C20007E730085A2DD /* Assets.xcassets in Resources */,
-				B25FFFC22075EFD40010B4CD /* XIBViewController.xib in Resources */,
+				B2DB9EAF2085CE5F00DFE21B /* XIBViewController.xib in Resources */,
 				B47B660C20032B4400E81BCB /* CardTableViewCell.xib in Resources */,
-				B25FFFC92075EFD40010B4CD /* AutoLayoutViewController.xib in Resources */,
+				B2DB9EBE2085CE5F00DFE21B /* AutoLayoutViewController.xib in Resources */,
 				B48E0D2A20007E730085A2DD /* Main.storyboard in Resources */,
 				B48E0D3C20007FA70085A2DD /* ProjectDetailsView.xib in Resources */,
 			);
@@ -619,50 +625,51 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B25FFFB82075EFD40010B4CD /* UISliderController.m in Sources */,
 				B25FFFE72075F0010010B4CD /* CopyProperty.m in Sources */,
+				B2DB9EBB2085CE5F00DFE21B /* UIButtonController.m in Sources */,
+				B2DB9EB02085CE5F00DFE21B /* MYTableViewController.m in Sources */,
 				B25FFFED2075F0010010B4CD /* LYAutoreleasepool.m in Sources */,
-				B25FFFC62075EFD40010B4CD /* TimerViewController.m in Sources */,
+				B2DB9EB72085CE5F00DFE21B /* UISwitchController.m in Sources */,
+				B2DB9EC12085CE5F00DFE21B /* RespondersController.m in Sources */,
 				B2F3F475207B3AB200E4AFAF /* SUTRuntimeMethod.m in Sources */,
-				B25FFFCB2075EFD40010B4CD /* AutoLayoutViewController.m in Sources */,
+				B2DB9EB82085CE5F00DFE21B /* UIGestureController.m in Sources */,
+				B2DB9EBF2085CE5F00DFE21B /* ManualLayoutController.m in Sources */,
 				B4DB5759201080A100196F6E /* ActivityWebView.m in Sources */,
-				B25FFFB72075EFD40010B4CD /* SqliteController.m in Sources */,
+				B2DB9EC22085CE5F00DFE21B /* UISliderController.m in Sources */,
 				B25FFFEB2075F0010010B4CD /* base64.m in Sources */,
-				B25FFFC72075EFD40010B4CD /* UIWindowController.m in Sources */,
+				B2DB9EAC2085CE5F00DFE21B /* UINavgationController.m in Sources */,
 				B48E0D2720007E730085A2DD /* ViewController.m in Sources */,
 				B48E0D3220007E730085A2DD /* main.m in Sources */,
 				B47B660B20032B4400E81BCB /* CardTableViewCell.m in Sources */,
-				B25FFFC02075EFD40010B4CD /* SDWebImageController.m in Sources */,
+				B2DB9EAD2085CE5F00DFE21B /* AnimationController.m in Sources */,
 				B25FFFE82075F0010010B4CD /* NSString+Helper.m in Sources */,
-				B25FFFB42075EFD40010B4CD /* UIHierarchyController.m in Sources */,
-				B25FFFC82075EFD40010B4CD /* UISwitchController.m in Sources */,
-				B25FFFCD2075EFD40010B4CD /* AnimationController.m in Sources */,
-				B25FFFBE2075EFD40010B4CD /* URLConnectsController.m in Sources */,
-				B25FFFB62075EFD40010B4CD /* UIButtonEventController.m in Sources */,
-				B25FFFB32075EFD40010B4CD /* UILabelController.m in Sources */,
-				B25FFFB52075EFD40010B4CD /* UIButtonController.m in Sources */,
+				B2DB9EB52085CE5F00DFE21B /* TimerViewController.m in Sources */,
+				B2DB9EB42085CE5F00DFE21B /* JSONXMLController.m in Sources */,
 				B48E0D2420007E730085A2DD /* AppDelegate.m in Sources */,
-				B25FFFBB2075EFD40010B4CD /* JSONXMLController.m in Sources */,
-				B25FFFC32075EFD40010B4CD /* UIGestureController.m in Sources */,
-				B25FFFCA2075EFD40010B4CD /* ManualLayoutController.m in Sources */,
-				B25FFFC12075EFD40010B4CD /* XIBViewController.m in Sources */,
-				B25FFFC42075EFD40010B4CD /* MYTableViewController.m in Sources */,
-				B25FFFBA2075EFD40010B4CD /* UIAlertViewController.m in Sources */,
 				B25FFFEC2075F0010010B4CD /* GTMBase64.m in Sources */,
+				B2DB9EBC2085CE5F00DFE21B /* UIButtonEventController.m in Sources */,
 				B25FFFE92075F0010010B4CD /* UserModel.m in Sources */,
 				B48E0D3A20007F240085A2DD /* ProjectDetailsView.m in Sources */,
-				B25FFFBF2075EFD40010B4CD /* MyWKWebController.m in Sources */,
 				B2900E35206A293800953737 /* LYCatViewController.m in Sources */,
-				B25FFFC52075EFD40010B4CD /* UINavgationController.m in Sources */,
+				B2DB9EC82085CEEE00DFE21B /* SocketSingleton.m in Sources */,
+				B2DB9EAE2085CE5F00DFE21B /* XIBViewController.m in Sources */,
+				B2DB9EC42085CE5F00DFE21B /* UIAlertViewController.m in Sources */,
+				B2DB9EB22085CE5F00DFE21B /* MyWKWebController.m in Sources */,
+				B2DB9EBA2085CE5F00DFE21B /* UIHierarchyController.m in Sources */,
 				B2F3F472207B3AA000E4AFAF /* SUTRuntimeMethodHelper.m in Sources */,
+				B2DB9EB92085CE5F00DFE21B /* UILabelController.m in Sources */,
+				B2DB9EAA2085CE5F00DFE21B /* UITouchController.m in Sources */,
 				B25FFFE52075F0010010B4CD /* UIView+gesture.m in Sources */,
 				B2F3F478207C662600E4AFAF /* UIViewController+Tracking.m in Sources */,
-				B25FFFCC2075EFD40010B4CD /* RespondersController.m in Sources */,
+				B2DB9EB32085CE5F00DFE21B /* SqliteController.m in Sources */,
+				B2DB9EC32085CE5F00DFE21B /* UITextFielController.m in Sources */,
+				B2DB9EB12085CE5F00DFE21B /* URLConnectsController.m in Sources */,
+				B2DB9EBD2085CE5F00DFE21B /* SDWebImageController.m in Sources */,
+				B2DB9EC02085CE5F00DFE21B /* AutoLayoutViewController.m in Sources */,
 				B25FFFEA2075F0010010B4CD /* Service.m in Sources */,
+				B2DB9EB62085CE5F00DFE21B /* UIWindowController.m in Sources */,
 				B25FFFE62075F0010010B4CD /* MyClass.m in Sources */,
-				B25FFFBD2075EFD40010B4CD /* UIScrollerViewController.m in Sources */,
-				B25FFFBC2075EFD40010B4CD /* UITouchController.m in Sources */,
-				B25FFFB92075EFD40010B4CD /* UITextFielController.m in Sources */,
+				B2DB9EAB2085CE5F00DFE21B /* UIScrollerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
