@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9F031D94879D41BD3E0CD156 /* libPods-xdzc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E606E74A669E169E7B17BBC4 /* libPods-xdzc.a */; };
+		B23F19BA2090091300F3D007 /* LYBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = B23F19B92090091300F3D007 /* LYBlock.m */; };
 		B25FFFE52075F0010010B4CD /* UIView+gesture.m in Sources */ = {isa = PBXBuildFile; fileRef = B25FFFD12075F0010010B4CD /* UIView+gesture.m */; };
 		B25FFFE62075F0010010B4CD /* MyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = B25FFFD22075F0010010B4CD /* MyClass.m */; };
 		B25FFFE72075F0010010B4CD /* CopyProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = B25FFFD42075F0010010B4CD /* CopyProperty.m */; };
@@ -67,6 +68,8 @@
 /* Begin PBXFileReference section */
 		153A92FE28FD1EA020AA1FD3 /* Pods-xdzc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xdzc.release.xcconfig"; path = "Pods/Target Support Files/Pods-xdzc/Pods-xdzc.release.xcconfig"; sourceTree = "<group>"; };
 		319EBD93DD73B93F7BC73845 /* Pods-xdzc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xdzc.debug.xcconfig"; path = "Pods/Target Support Files/Pods-xdzc/Pods-xdzc.debug.xcconfig"; sourceTree = "<group>"; };
+		B23F19B82090091300F3D007 /* LYBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYBlock.h; sourceTree = "<group>"; };
+		B23F19B92090091300F3D007 /* LYBlock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYBlock.m; sourceTree = "<group>"; };
 		B25FFFCF2075F0010010B4CD /* UIView+gesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+gesture.h"; sourceTree = "<group>"; };
 		B25FFFD02075F0010010B4CD /* MyClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyClass.h; sourceTree = "<group>"; };
 		B25FFFD12075F0010010B4CD /* UIView+gesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+gesture.m"; sourceTree = "<group>"; };
@@ -194,10 +197,20 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		B23F19B7209008FD00F3D007 /* 7-Block */ = {
+			isa = PBXGroup;
+			children = (
+				B23F19B82090091300F3D007 /* LYBlock.h */,
+				B23F19B92090091300F3D007 /* LYBlock.m */,
+			);
+			path = "7-Block";
+			sourceTree = "<group>";
+		};
 		B25FFF4E2075EFD30010B4CD /* OC语言基础 */ = {
 			isa = PBXGroup;
 			children = (
 				B25FFFD32075F0010010B4CD /* 1-属性 */,
+				B23F19B7209008FD00F3D007 /* 7-Block */,
 				B25FFFE22075F0010010B4CD /* 15-内存管理 */,
 				B25FFFCE2075F0000010B4CD /* 20-Runtime */,
 				B2DB9EC52085CED500DFE21B /* 21Socket */,
@@ -627,6 +640,7 @@
 				B2F3F472207B3AA000E4AFAF /* SUTRuntimeMethodHelper.m in Sources */,
 				B2DB9EB92085CE5F00DFE21B /* UILabelController.m in Sources */,
 				B2DB9EAA2085CE5F00DFE21B /* UITouchController.m in Sources */,
+				B23F19BA2090091300F3D007 /* LYBlock.m in Sources */,
 				B25FFFE52075F0010010B4CD /* UIView+gesture.m in Sources */,
 				B2F3F478207C662600E4AFAF /* UIViewController+Tracking.m in Sources */,
 				B2DB9EB32085CE5F00DFE21B /* SqliteController.m in Sources */,

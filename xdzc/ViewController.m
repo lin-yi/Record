@@ -15,6 +15,7 @@
 #import "MyClass.h"
 #import "UIView+gesture.h"
 #import "SUTRuntimeMethod.h"
+#import "LYBlock.h"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 @end
@@ -100,10 +101,14 @@
 //    [self lihailou];
     
 //        [self performSelector:@selector(method1)];
-    
-    SUTRuntimeMethod *sutRun1 = [[SUTRuntimeMethod alloc] init];
-    [sutRun1 performSelector:@selector(test)];
-    
+//
+//    SUTRuntimeMethod *sutRun1 = [[SUTRuntimeMethod alloc] init];
+//    [sutRun1 performSelector:@selector(test)];
+
+    LYBlock *lyBlock = [LYBlock new];
+    [lyBlock musicCycle:@"my love" success:^(NSString *result) {
+         NSLog(@"result is %@",result);
+    }];
 }
 
 -(void)lihailou{
