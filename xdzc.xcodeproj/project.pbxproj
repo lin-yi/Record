@@ -47,6 +47,7 @@
 		B2DB9EC32085CE5F00DFE21B /* UITextFielController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DB9EA82085CE5F00DFE21B /* UITextFielController.m */; };
 		B2DB9EC42085CE5F00DFE21B /* UIAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DB9EA92085CE5F00DFE21B /* UIAlertViewController.m */; };
 		B2DB9EC82085CEEE00DFE21B /* SocketSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DB9EC72085CEEE00DFE21B /* SocketSingleton.m */; };
+		B2E2DEE620A2795100A6C9D6 /* LYFile.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E2DEE520A2795100A6C9D6 /* LYFile.m */; };
 		B2F3F472207B3AA000E4AFAF /* SUTRuntimeMethodHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F3F471207B3AA000E4AFAF /* SUTRuntimeMethodHelper.m */; };
 		B2F3F475207B3AB200E4AFAF /* SUTRuntimeMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F3F474207B3AB200E4AFAF /* SUTRuntimeMethod.m */; };
 		B2F3F478207C662600E4AFAF /* UIViewController+Tracking.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F3F477207C662600E4AFAF /* UIViewController+Tracking.m */; };
@@ -145,6 +146,8 @@
 		B2DB9EA92085CE5F00DFE21B /* UIAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIAlertViewController.m; sourceTree = "<group>"; };
 		B2DB9EC62085CEEE00DFE21B /* SocketSingleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocketSingleton.h; sourceTree = "<group>"; };
 		B2DB9EC72085CEEE00DFE21B /* SocketSingleton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocketSingleton.m; sourceTree = "<group>"; };
+		B2E2DEE420A2795100A6C9D6 /* LYFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYFile.h; sourceTree = "<group>"; };
+		B2E2DEE520A2795100A6C9D6 /* LYFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYFile.m; sourceTree = "<group>"; };
 		B2F3F470207B3AA000E4AFAF /* SUTRuntimeMethodHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SUTRuntimeMethodHelper.h; sourceTree = "<group>"; };
 		B2F3F471207B3AA000E4AFAF /* SUTRuntimeMethodHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SUTRuntimeMethodHelper.m; sourceTree = "<group>"; };
 		B2F3F473207B3AB200E4AFAF /* SUTRuntimeMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SUTRuntimeMethod.h; sourceTree = "<group>"; };
@@ -211,6 +214,7 @@
 			children = (
 				B25FFFD32075F0010010B4CD /* 1-属性 */,
 				B23F19B7209008FD00F3D007 /* 7-Block */,
+				B2E2DEE320A2793600A6C9D6 /* 9-文件读写 */,
 				B25FFFE22075F0010010B4CD /* 15-内存管理 */,
 				B25FFFCE2075F0000010B4CD /* 20-Runtime */,
 				B2DB9EC52085CED500DFE21B /* 21Socket */,
@@ -451,6 +455,15 @@
 			path = "xdzc/OC语言基础/21Socket";
 			sourceTree = SOURCE_ROOT;
 		};
+		B2E2DEE320A2793600A6C9D6 /* 9-文件读写 */ = {
+			isa = PBXGroup;
+			children = (
+				B2E2DEE420A2795100A6C9D6 /* LYFile.h */,
+				B2E2DEE520A2795100A6C9D6 /* LYFile.m */,
+			);
+			path = "9-文件读写";
+			sourceTree = "<group>";
+		};
 		B48E0D1620007E730085A2DD = {
 			isa = PBXGroup;
 			children = (
@@ -630,6 +643,7 @@
 				B25FFFEC2075F0010010B4CD /* GTMBase64.m in Sources */,
 				B2DB9EBC2085CE5F00DFE21B /* UIButtonEventController.m in Sources */,
 				B25FFFE92075F0010010B4CD /* UserModel.m in Sources */,
+				B2E2DEE620A2795100A6C9D6 /* LYFile.m in Sources */,
 				B48E0D3A20007F240085A2DD /* ProjectDetailsView.m in Sources */,
 				B2900E35206A293800953737 /* LYCatViewController.m in Sources */,
 				B2DB9EC82085CEEE00DFE21B /* SocketSingleton.m in Sources */,
